@@ -1,7 +1,6 @@
 <template>
     <div>
-        Auth Layout
-        <Header/>
+        Admin Layout
         <slot/>
     </div>
 </template>

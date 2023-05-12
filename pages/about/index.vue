@@ -1,12 +1,10 @@
 <template>
     <div>
-        about
+        {{ name }}
     </div>
 </template>
 
-<script setup>
-    definePageMeta({
-        layout: "auth",
-    });
-    const name = ref('felix');
+<script setup lang="ts">
+    definePageMeta({ layout: "auth" });
+    const name = ref<string>('felix');
 </script>
