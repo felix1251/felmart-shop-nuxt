@@ -1,6 +1,4 @@
 <template>
-    <div>
-        Admin Layout
-        <slot/>
-    </div>
+    Admin Layout
+    <slot/>
 </template>

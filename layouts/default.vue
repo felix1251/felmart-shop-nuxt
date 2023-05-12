@@ -1,6 +1,4 @@
 <template>
-    <div>
-        Main Layout
-        <slot/>
-    </div>
+    Main Layout
+    <slot/>
 </template>

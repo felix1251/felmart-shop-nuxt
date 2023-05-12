@@ -1,7 +1,4 @@
 <template>
-    <div>
-        Auth Layout
-        <Header/>
-        <slot/>
-    </div>
+    <Header/>
+    <slot/>
 </template>
