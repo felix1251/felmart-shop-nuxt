@@ -2,7 +2,7 @@
   <Html lang="en">
     <Body>
       <NuxtLayout>
-        <NuxtLoadingIndicator/>
+        <NuxtLoadingIndicator />
         <NuxtPage />
       </NuxtLayout>
     </Body>
