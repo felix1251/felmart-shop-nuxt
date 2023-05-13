@@ -5,7 +5,6 @@ export default <DefaultConfigOptions>{
     config: {
         classes: generateClasses({
             text: {
-                outer: 'mb-5',
                 label: 'block mb-1 font-medium text-sm',
                 inner: 'max-w-md border border-gray-400 rounded-lg mb-1 overflow-hidden focus-within:border-blue-500',
                 input: 'w-full h-10 px-3 border-none text-base text-gray-700 placeholder-gray-400',
