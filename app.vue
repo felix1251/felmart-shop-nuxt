@@ -1,10 +1,10 @@
 <template>
-  <Html lang="en">
+    <Html lang="en">
     <Body>
-      <NuxtLayout>
-        <NuxtLoadingIndicator />
-        <NuxtPage />
-      </NuxtLayout>
+        <NuxtLayout>
+            <NuxtLoadingIndicator />
+            <NuxtPage />
+        </NuxtLayout>
     </Body>
-  </Html>
+    </Html>
 </template>
