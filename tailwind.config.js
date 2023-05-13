@@ -3,9 +3,6 @@ import formkit from '@formkit/themes/tailwindcss';
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	important: true,
-	// corePlugins: {
-	//   preflight: false
-	// },
 	content: [
 		"./components/**/*.{js,vue,ts}",
 		"./layouts/**/*.vue",
