@@ -1,5 +1,5 @@
 <template>
     <div>
-        Users
+        OAuth
     </div>
 </template>
