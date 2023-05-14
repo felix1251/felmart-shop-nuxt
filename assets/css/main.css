@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .default-screen {
-    @apply w-[1230px] mx-auto px-4;
+    @apply max-w-[1230px] mx-auto px-4;
 }
