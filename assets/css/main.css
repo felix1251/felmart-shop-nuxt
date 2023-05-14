@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.default-screen {
+    @apply max-w-[1230px] mx-auto px-4;
+}

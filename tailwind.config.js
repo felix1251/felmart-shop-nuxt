@@ -13,6 +13,10 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			colors: {
+				primary: "#007BC5",
+				secondary: "#2E2A2A"
+			},
 			fontFamily: {
 				sans: [
 					'"Inter"',

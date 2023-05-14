@@ -1,4 +1,7 @@
 <template>
-    Main Layout
-    <slot/>
+    <PromoHeader/>
+    <Header/>
+    <main class="default-screen py-5">
+        <slot/>
+    </main>
 </template>
