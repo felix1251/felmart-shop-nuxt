@@ -1,7 +1,7 @@
 import { DefaultConfigOptions } from '@formkit/vue';
 import { generateClasses } from '@formkit/themes';
 
-export default <DefaultConfigOptions>{
+const formkitThemeConfig:DefaultConfigOptions = {
     config: {
         classes: generateClasses({
             text: {
@@ -24,4 +24,6 @@ export default <DefaultConfigOptions>{
             }
         }),
     },
-};
+}
+
+export default formkitThemeConfig;
