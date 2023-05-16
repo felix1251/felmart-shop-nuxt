@@ -16,7 +16,8 @@ export default <DefaultConfigOptions>{
                 help: 'text-xs text-gray-500',
             },
             submit: {
-                input: 'bg-blue-700 text-white px-4 py-2 rounded-md',
+                input: 'bg-primary hover:bg-primary/[.9] text-white px-5 py-2.5 rounded-lg font-medium',
+                help: 'text-xs text-gray-500',
             },
             form: {
                 
