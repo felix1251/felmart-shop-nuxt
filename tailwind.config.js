@@ -9,7 +9,8 @@ module.exports = {
 		"./pages/**/*.vue",
 		"./plugins/**/*.{js,ts}",
 		"./nuxt.config.{js,ts}",
-		"./formkit.config.ts"
+		"./formkit.config.ts",
+		"./composables/**/*.{js,ts}",
 	],
 	theme: {
 		extend: {
