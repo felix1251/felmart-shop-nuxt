@@ -1,4 +1,4 @@
-export const formkitThemeConfigConstant = {
+export const formkitThemeConfigConstant:{} = {
     text: {
         label: 'block mb-1 text-secondary font-medium',
         input: 'w-full px-3 py-2.5 border font-normal rounded-lg border-gray-400 text-gray-800 placeholder-gray-400 focus-within:outline-primary',
