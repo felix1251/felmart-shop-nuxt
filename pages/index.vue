@@ -6,7 +6,6 @@
                 <FormKit type="text" label="Password" placeholder="Password" />
             </div>
             <FormKit type="button" label="Button" />
-            {{ foo }}
         </div>
     </FormKit>
 </template>
