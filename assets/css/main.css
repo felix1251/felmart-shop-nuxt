@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    @apply text-secondary;
+}
+
 .default-screen {
     @apply max-w-[1230px] mx-auto px-4;
 }
