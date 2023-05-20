@@ -22,11 +22,13 @@ const sizeCss = computed({
   get: () => {
     switch (size) {
         case "small":
-            return "text-2xl font-semibold"
+            return "text-2xl font-medium"
+        case "medium":
+            return "text-4xl font-bold"
         case "large":
-            return "text-5xl text-bold"
+            return "text-5xl font-bold"
         default:
-            return "text-4xl text-bold"
+            return "text-4xl font-bold"
     }
   },
   set: () => {}
