@@ -1,6 +1,9 @@
 <template>
     <Sidebar/>
     <main class="ml-80">
-        <slot/>
+        <AdminHeader/>
+        <section class="px-5 py-3">
+            <slot/>
+        </section>
     </main>
 </template>
