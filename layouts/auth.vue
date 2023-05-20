@@ -1,3 +1,5 @@
 <template>
-    <slot/>
+    <main class="default-screen">
+        <slot/>
+    </main>
 </template>
