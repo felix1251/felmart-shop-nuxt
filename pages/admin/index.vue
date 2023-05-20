@@ -1,5 +1,11 @@
 <template>
     <div>
-        Dashboard
+        Content
     </div>
 </template>
+
+<script lang="ts" setup>
+definePageMeta({
+    layout: "admin",
+});
+</script>
