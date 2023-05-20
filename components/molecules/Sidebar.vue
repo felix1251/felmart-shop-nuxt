@@ -4,7 +4,7 @@
         <ul class="mt-5 space-y-1">
             <NuxtLink :to="item.link" v-for="(item, index) in data" :key="index"
                 class="flex items-center gap-2.5 text-sm font-medium px-4 py-2.5 rounded-md"
-                :class="[menu.route === item.link ? 'bg-primary text-white ' : 'hover:bg-primary/[.1]']">
+                :class="[current.route === item.link ? 'bg-primary text-white ' : 'hover:bg-primary/[.1]']">
                 <Icon :name="item.icon" size="1.7em" /> {{ item.name }}
             </NuxtLink>
         </ul>
@@ -14,9 +14,9 @@
 <script lang="ts" setup>
 const data = adminLinksConstant
 const route = useRoute()
-const menu = reactive({ route: route.fullPath })
+const current = reactive({ route: route.fullPath })
 
-watch(route, value => {
-    menu.route = value.fullPath
+watch(route, newRoute => {
+    current.route = newRoute.fullPath
 })
 </script>
