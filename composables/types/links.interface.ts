@@ -8,5 +8,6 @@ export interface adminlinksConstantTypes {
 export interface adminDetailsLinksContantTypes {
     link: string,
     source: Array<string>,
+    icon: string,
     name: string,
 }

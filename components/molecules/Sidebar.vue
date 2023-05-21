@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts" setup>
-const data = adminSidebarConstant
+const data = Object.values(adminSidebarLinksContant)
 const route = useRoute()
 const current = reactive({ route: route.fullPath })
 
