@@ -3,7 +3,7 @@
         <LogoText text="Felmart Admin" size="small" />
         <ul class="mt-5 space-y-1">
             <NuxtLink :to="item.link" v-for="(item, index) in data" :key="index"
-                class="flex items-center gap-2.5 text-sm font-medium px-4 py-2.5 rounded-md"
+                class="flex items-center gap-2.5 text-sm font-medium px-3 py-2.5 rounded-md"
                 :class="[current.route === item.link ? 'bg-primary text-white ' : 'hover:bg-primary/[.1]']">
                 <Icon :name="item.icon" size="1.7em" /> {{ item.name }}
             </NuxtLink>
