@@ -49,3 +49,7 @@ export const useFindLinkPath = (path: any): string | null => {
 export const useFindLinkName = (path: string): string | null => {
     return adminDetailsLinksContant[path]?.name;
 };
+
+export const useFindLinkSource = (path: string): Array<string> | null => {
+    return adminDetailsLinksContant[path]?.source;
+};
