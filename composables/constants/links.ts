@@ -1,6 +1,6 @@
 import { adminlinksConstantTypes, adminDetailsLinksContantTypes } from "../types/links.interface";
 
-export const adminLinksConstant:adminlinksConstantTypes = {
+export const adminLinksConstant: adminlinksConstantTypes = {
     ADMIN_DASHBOARD: "ADMIN_DASHBOARD",
     ADMIN_PRODUCTS: "ADMIN_PRODUCTS",
     ADMIN_CATEGORY: "ADMIN_CATEGORY",
@@ -30,14 +30,14 @@ export const adminDetailsLinksContant = {
     },
 };
 
-export const useFindLinkDetails = (path:string): adminDetailsLinksContantTypes | null => {
-    return adminDetailsLinksContant[path]
+export const useFindLinkDetails = (path: string): adminDetailsLinksContantTypes | null => {
+    return adminDetailsLinksContant[path];
 };
 
-export const useFindLinkPath = (path:string): string | null => {
-    return adminDetailsLinksContant[path]?.link
+export const useFindLinkPath = (path: string): string | null => {
+    return adminDetailsLinksContant[path]?.link;
 };
 
-export const useFindLinkName = (path:string): string | null => {
-    return adminDetailsLinksContant[path]?.name
+export const useFindLinkName = (path: string): string | null => {
+    return adminDetailsLinksContant[path]?.name;
 };
