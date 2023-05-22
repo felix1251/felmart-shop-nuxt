@@ -15,16 +15,14 @@ export default defineNuxtConfig({
     },
     // nested components
     components: [{ path: '~/components', pathPrefix: false }],
-    css: [
-        '@/assets/css/main.css',
-    ],
+    css: ['@/assets/css/main.css'],
     modules: ['@formkit/nuxt', 'nuxt-icon'],
     // nested composables
     imports: {
         dirs: [
-          'composables',
-          'composables/*/index.{ts,js,mjs,mts}',
-          'composables/**',
+            'composables',
+            'composables/*/index.{ts,js,mjs,mts}',
+            'composables/**',
         ]
     }
 })
