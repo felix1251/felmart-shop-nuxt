@@ -1,4 +1,4 @@
-import { adminlinksConstantTypes, linksContantTypes } from "../types/links.interface";
+import { adminlinksConstantTypes, linksDetailsContantTypes } from "../types/links.interface";
 
 export const linksConstant: adminlinksConstantTypes = {
     HOME: "HOME",
@@ -45,7 +45,7 @@ const linkDetailsContant = {
     ...adminSidebarLinksContant
 };
 
-export const useFindLinkDetails = (path: string): linksContantTypes => {
+export const useFindLinkDetails = (path: string): linksDetailsContantTypes => {
     return linkDetailsContant[path];
 };
 

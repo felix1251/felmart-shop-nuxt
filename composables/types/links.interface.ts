@@ -6,7 +6,7 @@ export interface adminlinksConstantTypes {
     ADMIN_SALES: string,
 }
 
-export interface linksContantTypes {
+export interface linksDetailsContantTypes {
     link: string,
     source: Array<string>,
     icon: string,
