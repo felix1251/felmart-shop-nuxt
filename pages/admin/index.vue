@@ -1,5 +1,5 @@
 <template>
-    <Breadcrumb path="ADMIN_DASHBOARD"/>
+    <Breadcrumb :path="dashboardPageConstant"/>
     <div>
         Content
     </div>
@@ -9,5 +9,5 @@
 definePageMeta({
     layout: "admin",
 });
-const homePageLink: string = useFindLinkPath(linksConstant.HOME)
+const dashboardPageConstant: string = linksConstant.ADMIN_DASHBOARD
 </script>
