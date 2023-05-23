@@ -6,5 +6,4 @@
 definePageMeta({
     layout: "vendor",
 });
-const dashboardPageConstant: string = linksConstant.ADMIN_DASHBOARD;
 </script>

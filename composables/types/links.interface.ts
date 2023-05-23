@@ -1,8 +1,8 @@
-export interface adminlinksConstantTypes {
+export interface vendorlinksConstantTypes {
     HOME: string;
-    ADMIN_DASHBOARD: string;
-    ADMIN_PRODUCTS: string;
-    ADMIN_SALES: string;
+    VENDOR_DASHBOARD: string;
+    VENDOR_PRODUCTS: string;
+    VENDOR_SALES: string;
 }
 
 export interface linksDetailsContantTypes {

@@ -1,29 +1,29 @@
 import {
-    adminlinksConstantTypes,
+    vendorlinksConstantTypes,
     linksDetailsContantTypes,
 } from "../types/links.interface";
 
-export const linksConstant: adminlinksConstantTypes = {
+export const linksConstant: vendorlinksConstantTypes = {
     HOME: "HOME",
-    ADMIN_DASHBOARD: "ADMIN_DASHBOARD",
-    ADMIN_PRODUCTS: "ADMIN_PRODUCTS",
-    ADMIN_SALES: "ADMIN_SALES",
+    VENDOR_DASHBOARD: "VENDOR_DASHBOARD",
+    VENDOR_PRODUCTS: "ADMIN_PRODUCTS",
+    VENDOR_SALES: "ADMIN_SALES",
 };
 
 export const vendorSidebarLinksContant = {
-    [linksConstant.ADMIN_DASHBOARD]: {
+    [linksConstant.VENDOR_DASHBOARD]: {
         link: "/vendor",
         source: [],
         icon: "material-symbols:home-outline",
         name: "Dashboard",
     },
-    [linksConstant.ADMIN_PRODUCTS]: {
+    [linksConstant.VENDOR_PRODUCTS]: {
         link: "/vendor/products",
         source: [],
         icon: "ph:bag-bold",
         name: "Products",
     },
-    [linksConstant.ADMIN_SALES]: {
+    [linksConstant.VENDOR_SALES]: {
         link: "/vendor/sales",
         source: [],
         icon: "ph:money-bold",
