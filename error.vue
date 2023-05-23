@@ -9,7 +9,7 @@
             </div>
         </div>
         <a
-            class="bg-primary hover:bg-primary/[.9] text-white px-3 py-2 rounded-lg"
+            class="bg-primary hover:bg-primary/[.9] text-white px-4 py-2.5 rounded-lg"
             href="/"
             >Go to main page</a
         >
