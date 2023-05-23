@@ -1,5 +1,3 @@
 <template>
-    <div>
-        OAuth
-    </div>
+    <div>OAuth</div>
 </template>

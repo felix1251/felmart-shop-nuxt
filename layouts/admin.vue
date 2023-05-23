@@ -1,9 +1,9 @@
 <template>
-    <Sidebar/>
+    <Sidebar />
     <main class="ml-80">
-        <AdminHeader/>
+        <AdminHeader />
         <section class="px-5 py-3">
-            <slot/>
+            <slot />
         </section>
     </main>
 </template>

@@ -1,5 +1,3 @@
 <template>
-    <div>
-        buttton
-    </div>
+    <div>buttton</div>
 </template>

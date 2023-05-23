@@ -1,7 +1,7 @@
 <template>
-    <PromoHeader/>
-    <Header/>
+    <PromoHeader />
+    <Header />
     <main class="default-screen">
-        <slot/>
+        <slot />
     </main>
 </template>

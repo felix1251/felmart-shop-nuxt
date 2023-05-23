@@ -1,5 +1,3 @@
 <template>
-    <div>
-        modal
-    </div>
+    <div>modal</div>
 </template>
