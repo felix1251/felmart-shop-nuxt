@@ -1,7 +1,7 @@
 import {
     vendorlinksConstantTypes,
     linksDetailsContantTypes,
-} from "../types/links.interface";
+} from "@/interfaces/links.interface";
 
 export const linksConstant: vendorlinksConstantTypes = {
     HOME: "HOME",
