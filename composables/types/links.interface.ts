@@ -2,7 +2,6 @@ export interface adminlinksConstantTypes {
     HOME: string;
     ADMIN_DASHBOARD: string;
     ADMIN_PRODUCTS: string;
-    ADMIN_CATEGORY: string;
     ADMIN_SALES: string;
 }
 

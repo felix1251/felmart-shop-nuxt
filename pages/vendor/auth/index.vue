@@ -1,11 +1,9 @@
 <template>
-    <div>
-        category
-    </div>
+    <div>auth</div>
 </template>
 
 <script lang="ts" setup>
 definePageMeta({
-    layout: "admin",
+    layout: "vendor",
 });
 </script>

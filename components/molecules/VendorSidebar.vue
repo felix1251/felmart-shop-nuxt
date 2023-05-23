@@ -1,7 +1,7 @@
 <template>
     <nav class="w-80 fixed h-screen border-r px-4 py-3 shadow-md">
         <LogoText
-            text="Felmart Admin"
+            text="Felmart Vendor"
             size="small"
         />
         <ul class="mt-5 space-y-1">
@@ -27,7 +27,7 @@
 </template>
 
 <script lang="ts" setup>
-const data = Object.values(adminSidebarLinksContant);
+const data = Object.values(vendorSidebarLinksContant);
 const route = useRoute();
 const current = reactive({ route: route.fullPath });
 

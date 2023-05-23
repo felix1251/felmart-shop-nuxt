@@ -1,7 +1,7 @@
 <template>
-    <Sidebar />
+    <VendorSidebar />
     <main class="ml-80">
-        <AdminHeader />
+        <VendorHeader />
         <section class="px-5 py-3">
             <slot />
         </section>
