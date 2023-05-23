@@ -7,31 +7,24 @@ export const linksConstant: adminlinksConstantTypes = {
     HOME: "HOME",
     ADMIN_DASHBOARD: "ADMIN_DASHBOARD",
     ADMIN_PRODUCTS: "ADMIN_PRODUCTS",
-    ADMIN_CATEGORY: "ADMIN_CATEGORY",
     ADMIN_SALES: "ADMIN_SALES",
 };
 
-export const adminSidebarLinksContant = {
+export const vendorSidebarLinksContant = {
     [linksConstant.ADMIN_DASHBOARD]: {
-        link: "/admin",
+        link: "/vendor",
         source: [],
         icon: "material-symbols:home-outline",
         name: "Dashboard",
     },
     [linksConstant.ADMIN_PRODUCTS]: {
-        link: "/admin/products",
+        link: "/vendor/products",
         source: [],
         icon: "ph:bag-bold",
         name: "Products",
     },
-    [linksConstant.ADMIN_CATEGORY]: {
-        link: "/admin/category",
-        source: [],
-        icon: "ic:baseline-list",
-        name: "Categories",
-    },
     [linksConstant.ADMIN_SALES]: {
-        link: "/admin/sales",
+        link: "/vendor/sales",
         source: [],
         icon: "ph:money-bold",
         name: "Sales",
@@ -45,7 +38,7 @@ const linkDetailsContant = {
         icon: "",
         name: "Home",
     },
-    ...adminSidebarLinksContant,
+    ...vendorSidebarLinksContant,
 };
 
 export const useFindLinkDetails = (path: string): linksDetailsContantTypes => {

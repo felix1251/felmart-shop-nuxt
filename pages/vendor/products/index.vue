@@ -1,11 +1,9 @@
 <template>
-    <div>
-        Users
-    </div>
+    <div>products</div>
 </template>
 
 <script lang="ts" setup>
 definePageMeta({
-    layout: "admin",
+    layout: "vendor",
 });
 </script>
