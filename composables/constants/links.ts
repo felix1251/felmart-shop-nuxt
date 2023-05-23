@@ -1,9 +1,9 @@
 import {
-    vendorlinksConstantTypes,
-    linksDetailsContantTypes,
+    IVendorlinksConstant,
+    ILinksDetailsContant,
 } from "@/interfaces/links.interface";
 
-export const linksConstant: vendorlinksConstantTypes = {
+export const linksConstant: IVendorlinksConstant = {
     HOME: "HOME",
     VENDOR_DASHBOARD: "VENDOR_DASHBOARD",
     VENDOR_PRODUCTS: "ADMIN_PRODUCTS",
@@ -41,7 +41,7 @@ const linkDetailsContant = {
     ...vendorSidebarLinksContant,
 };
 
-export const useFindLinkDetails = (path: string): linksDetailsContantTypes => {
+export const useFindLinkDetails = (path: string): ILinksDetailsContant => {
     return linkDetailsContant[path];
 };
 

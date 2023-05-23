@@ -1,11 +1,11 @@
-export interface vendorlinksConstantTypes {
+export interface IVendorlinksConstant {
     HOME: string;
     VENDOR_DASHBOARD: string;
     VENDOR_PRODUCTS: string;
     VENDOR_SALES: string;
 }
 
-export interface linksDetailsContantTypes {
+export interface ILinksDetailsContant {
     link: string;
     source: Array<string>;
     icon: string;
