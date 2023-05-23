@@ -1,4 +1,7 @@
-import { adminlinksConstantTypes, linksDetailsContantTypes } from "../types/links.interface";
+import {
+    adminlinksConstantTypes,
+    linksDetailsContantTypes,
+} from "../types/links.interface";
 
 export const linksConstant: adminlinksConstantTypes = {
     HOME: "HOME",
@@ -13,25 +16,25 @@ export const adminSidebarLinksContant = {
         link: "/admin",
         source: [],
         icon: "material-symbols:home-outline",
-        name: "Dashboard"
+        name: "Dashboard",
     },
     [linksConstant.ADMIN_PRODUCTS]: {
         link: "/admin/products",
         source: [],
         icon: "ph:bag-bold",
-        name: "Products"
+        name: "Products",
     },
     [linksConstant.ADMIN_CATEGORY]: {
         link: "/admin/category",
         source: [],
         icon: "ic:baseline-list",
-        name: "Categories"
+        name: "Categories",
     },
     [linksConstant.ADMIN_SALES]: {
         link: "/admin/sales",
         source: [],
         icon: "ph:money-bold",
-        name: "Sales"
+        name: "Sales",
     },
 };
 
@@ -40,9 +43,9 @@ const linkDetailsContant = {
         link: "/",
         source: [],
         icon: "",
-        name: "Home"
+        name: "Home",
     },
-    ...adminSidebarLinksContant
+    ...adminSidebarLinksContant,
 };
 
 export const useFindLinkDetails = (path: string): linksDetailsContantTypes => {
