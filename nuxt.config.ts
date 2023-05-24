@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     // nested components
     components: [{ path: "~/components", pathPrefix: false }],
     css: ["@/assets/css/main.css"],
-    modules: ["@formkit/nuxt", "nuxt-icon"],
+    modules: ["@formkit/nuxt", "nuxt-icon", "@tailvue/nuxt"],
     // nested composables
     imports: {
         dirs: [

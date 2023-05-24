@@ -12,6 +12,7 @@ module.exports = {
         "./formkit.config.ts",
         "./composables/**/*.{js,ts}",
         "./error.vue",
+        "./node_modules/tailvue/dist/tailvue.es.js",
     ],
     theme: {
         extend: {
