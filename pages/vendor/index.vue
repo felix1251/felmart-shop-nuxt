@@ -1,7 +1,6 @@
 <template>
     <div>
         <FormKit
-            @click="click"
             type="button"
             label="Button"
         />
@@ -12,7 +11,7 @@
 definePageMeta({
     layout: "vendor",
 });
-const click = () => {
-    $toast.show("this is a test");
-};
+// const click = () => {
+//     $toast.show("this is a test");
+// };
 </script>
